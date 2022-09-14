@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I liked</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class = "principal">
+        <header>
+            <h1>Network</h1>
+        </header>
+        <div class = "tittle">
+            <h1>Your Feed</h1>
+        </div>
+        <div class = "principal2"> 
+            <nav>
+                <img src = "images/user-circle.png" alt = "fotoPerfil">
+                <a href = "#" id = "link">Add an avatar</a>
+                <h2>James Doe</h2>
+            </nav>
+            <main>
+                <div class = "like">
+                    <div class = "row">
+                        <h1>Neil M</h1>
+                        <p class = "countLikes"> 0 like(s)</p>
+                        <button class = "butt" onclick = "likes(`.countLikes`)">Like</button>
+                    </div>
+                    <div class = "text">
+                        <p>I just set up this new discrd bot, let me
+                            know what you all think. <a href = "#">link</a>
+                        </p>
+                    </div>
+                </div>
+                <div class = "like">
+                    <div class = "row">
+                        <h1>Nichole K</h1>
+                        <p class = "countLikes1"> 0 like(s)</p>
+                        <button class = "butt" onclick = "likes(`.countLikes1`)">Like</button>
+                    </div>
+                    <div class = "text">
+                        <p>Just finished my <a href = "#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class = "like">
+                    <div class = "row">
+                        <h1>Jim R</h1>
+                        <p class = "countLikes2"> 0 like(s)</p>
+                        <button class = "butt" onclick = "likes(`.countLikes2`)">Like</button>
+                    </div>
+                    <div class = "text">
+                        <p>I can`t stop listening to the <a href = "#">new album</a>.
+                        Who else is linking it?</p>
+                    </div>
+                </div>
+            </main>
+        </div> 
+    </div>  
+    <script src = "js/script.js"></script>
+</body>
+</html>
